@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "BloxImd",
+    "name": "BloxImd",
+    "symbol": "BLOX",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 8000,
+    "initialMarketCapWei": "2500000000000000000000",
+    "remainderTo": "0xd380a8b40fcea7c0a699ff0d8232a264b37a2f9f"
+  },
+  "notes": "BloxImd (BLOX) is a fixed-supply ERC-20 with 18 decimals. Its argument-free constructor mints all 1,000,000,000 tokens once to msg.sender. It has no subsequent minting, privileged roles, or transfer fees. No application contracts are included. pool.initialPrice records provenance only; the opening price is derived from economics.initialMarketCapWei and token.totalSupply."
+}
